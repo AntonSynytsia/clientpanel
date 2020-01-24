@@ -4,6 +4,24 @@ A client add/edit/delete panel with content persisted to the Firebase firestore.
 
 This was created following the hands-on Udemy course by Brad Traversy and custom adjustments for compatibility with the newer version of angular.
 
+If you intend to use this, please update environment to your own firestore, described in the following steps:
+
+1. Create a file called config.ts in _./src/environemnts/config.ts_:
+
+   ```ts
+   export const firebaseDev = {};
+
+   export const firebaseProd = {};
+   ```
+
+2. Create a firebase project at: [Firebase Console](https://console.firebase.google.com/)
+
+3. Setup email authentication.
+
+4. Create web app, which will in turn provide you with apiKey, authDomain, databaseURL, projectId, and other goodies.
+
+5. Copy the config key-value pair object into the created _config.ts_, updating both the _firebaseDev_ and _firebaseProd_ objects.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.22.
 
 ## Development server
