@@ -1,12 +1,12 @@
 # Clientpanel
 
-A client add/edit/delete panel with content persisted to the Firebase firestore.
+A client add/edit/delete panel with content persisted to Firebase firestore.
 
 This was created following the hands-on Udemy course by Brad Traversy and custom adjustments for compatibility with the newer version of angular.
 
 If you intend to use this, please update environment to your own firestore, described in the following steps:
 
-1. Create a file called config.ts in _./src/environemnts/config.ts_:
+1. Create a file called **config.ts** in _./src/environments/config.ts_ and add the following content:
 
    ```ts
    export const firebaseDev = {};
