@@ -1,5 +1,9 @@
 # Clientpanel
 
+A client add/edit/delete panel with content persisted to the Firebase firestore.
+
+This was created following the hands-on Udemy course by Brad Traversy and custom adjustments for compatibility with the newer version of angular.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.22.
 
 ## Development server
